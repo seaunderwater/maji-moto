@@ -1,11 +1,12 @@
-import React from "react"
+import React from 'react'
 import ProjectCard from '../components/ProjectCard'
+import ProjectCardGrid from '../components/ProjectCardGrid'
 import './index.css'
-// import tw from "tailwindcss"
 
 
-export default () =>  (
-	<div>
+export default () =>  (	
+	<ProjectCardGrid>
+	
 	<ProjectCard
 		img=""  
 		title="Cyber Africa"
@@ -36,8 +37,11 @@ export default () =>  (
 		title="Business Africa"
 		description="this is my description"
 	/>
+	</ProjectCardGrid>
 	
-	</div>
+
+	
+	
 	
 
 )
