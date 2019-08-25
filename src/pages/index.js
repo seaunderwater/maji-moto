@@ -1,10 +1,14 @@
 import React from 'react'
+import Title from '../components/Title'
 import ProjectCard from '../components/ProjectCard'
 import ProjectCardGrid from '../components/ProjectCardGrid'
 import './index.css'
 
 
 export default () =>  (	
+	<div>
+	<Title></Title>
+
 	<ProjectCardGrid>
 	
 	<ProjectCard
@@ -40,7 +44,7 @@ export default () =>  (
 	</ProjectCardGrid>
 	
 
-	
+	</div>
 	
 	
 
