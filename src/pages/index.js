@@ -1,5 +1,5 @@
 import React from 'react'
-import Title from '../components/Title'
+import ProjectLogo from '../components/ProjectLogo'
 import ProjectCard from '../components/ProjectCard'
 import ProjectCardGrid from '../components/ProjectCardGrid'
 import './index.css'
@@ -7,8 +7,7 @@ import './index.css'
 
 export default () =>  (	
 	<div>
-	<Title></Title>
-
+	<ProjectLogo></ProjectLogo>
 	<ProjectCardGrid>
 	
 	<ProjectCard
